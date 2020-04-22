@@ -20,7 +20,7 @@ int main()
 	std::string windowTitle = "Pong";
 	// Window title pong.
 	sf::RenderWindow window(sf::VideoMode(windowWidth, windowHeight), windowTitle);
-	
+
 	int score = 0;
 	int lives = 3;
 
@@ -109,7 +109,7 @@ int main()
 		 * Drawing the frame.
 		 */
 
-		window.clear(sf::Color(26, 128, 182, 255));
+		window.clear(sf::Color(26, 128, 59, 255));
 
 		window.draw(bat.getShape());
 		window.draw(ball.getShape());
